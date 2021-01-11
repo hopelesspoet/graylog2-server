@@ -24,6 +24,7 @@ import { Popover } from 'components/graylog';
 import ColorPicker from 'components/common/ColorPicker';
 import Plot from 'views/components/visualizations/plotly/AsyncPlot';
 import { colors as defaultColors } from 'views/components/visualizations/Colors';
+import ColorMapper from 'views/components/visualizations/ColorMapper';
 
 import ChartColorContext from './ChartColorContext';
 
@@ -33,7 +34,6 @@ import RenderCompletionCallback from '../widgets/RenderCompletionCallback';
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import styles from '!style/useable!css!./GenericPlot.css';
-import ColorMapper from 'views/components/visualizations/ColorMapper';
 
 type LegendConfig = {
   name: string,
